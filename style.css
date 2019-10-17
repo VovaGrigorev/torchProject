@@ -1,0 +1,29 @@
+
+.ourwork_text {
+    text-align: center;
+}
+.ourwork_pic {
+    display: flex;
+    flex-direction: row;
+}
+.ourwork ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;    
+}
+.punk-rock{
+    background: #fff;
+    color: #000;
+    height: 50px;
+}
+.punk-rock:hover {
+    color: green;
+    border-top: 3px solid green;
+}
+.load_more {
+    background: green;
+    border-radius: 5px;
+    margin-left: 50%;
+    height: 30px;
+    width: 150px;
+}
