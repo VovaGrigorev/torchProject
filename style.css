@@ -1,3 +1,73 @@
+ numbers
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(15, 157, 120);
+    height: 400px;
+    width: 400px;
+    border-top: 5px solid #000;
+    color: #fff;
+  }
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 400px;
+    width: 400px; 
+    border-top: 5px solid rgba(15, 157, 120);
+    color: #fff;
+  }
+  .icon {
+    width: 60px;
+  }
+  
+  .icon-wrapper {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .icon-wrapper1 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(15, 157, 120);
+  }
+  
+  .circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+  }
+  .circle1 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(15, 157, 120);
+  }
+
  OurServices
 body{
 margin: 0;
@@ -133,3 +203,4 @@ width: 93vw;
     width: 150px;
  dev
 }
+ dev
