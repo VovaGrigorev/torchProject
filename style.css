@@ -1,3 +1,4 @@
+ numbers
 
 .container {
     display: flex;
@@ -66,3 +67,140 @@
     align-items: center;
     border: 1px solid rgba(15, 157, 120);
   }
+
+ OurServices
+body{
+margin: 0;
+padding: 0;
+}
+.OurServices{
+width: 100vw;
+height:  40%;
+position: fixed;
+background-color: white;
+}
+.service{
+font-size: 37px;
+align-items: center;
+display: flex;
+text-align: center;
+justify-content: center;
+}
+.design{
+position: fixed;
+display: flex;
+justify-content: center;
+width: 100vw;
+
+}
+.web{
+padding-top: 21px;
+box-shadow: 0 0px 1px rgba(0, 0, 0, .25);
+font-size: 30px;
+display: flex;
+height: 56px;
+width: 200px;
+text-align: center;
+justify-content: center;
+background-color: whitesmoke;
+}
+.web:hover{
+background-color: green;
+transition: 1s;
+}
+.work-time{
+left: 24%;
+top: 112px;
+position: relative;
+height: 96%;
+background-repeat: no-repeat;
+}
+.work-text{
+color: grey;
+flex-wrap: wrap;;
+width: 803px;
+font-size: 28px;
+left: 38%;
+bottom: 107px;
+display: flex;
+position: relative;
+justify-content: center;
+}
+.graphic{
+width: 100vw;
+height: 200px;;
+}
+@media screen and  (max-width:700px){
+    .work-text{
+    width: 169px;
+    font-size:12px;
+    left: 46%;
+    bottom: 64px;
+    }
+    .web{
+    height: 47px;
+    width: 123px;
+    font-size: 17px;
+    padding-top: 0;
+    }
+    
+    .design{
+    margin: 0;
+    left: -33px;
+    width: 96vw;
+    }
+    .work-time{
+    height: 55%;
+    top:60px;
+    left: 8%;
+    }
+}
+@media screen and  (min-height:1000px){
+.web{
+font-size: 23px;
+}
+.work-text{
+width: 482px;
+font-size: 26px;
+}
+.work-time{
+left: 7%;
+top: 112px;
+height: 96%;
+}
+.design{
+width: 93vw;
+}
+
+
+
+.ourwork_text {
+    text-align: center;
+}
+.ourwork_pic {
+    display: flex;
+    flex-direction: row;
+}
+.ourwork ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;    
+}
+.punk-rock{
+    background: #fff;
+    color: #000;
+    height: 50px;
+}
+.punk-rock:hover {
+    color: green;
+    border-top: 3px solid green;
+}
+.load_more {
+    background: green;
+    border-radius: 5px;
+    margin-left: 50%;
+    height: 30px;
+    width: 150px;
+ dev
+}
+ dev
