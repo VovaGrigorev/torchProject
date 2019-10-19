@@ -1,0 +1,95 @@
+body{
+margin: 0;
+padding: 0;
+}
+.What{
+position: fixed;
+width: 100vw;
+height: 700px;
+background-image: url('http://placeimg.com/1000/600/arch');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.WhatPeople{
+font-size: 35px;
+padding: 0;
+color: black;
+display: flex;
+position: relative;
+text-align: center;
+justify-content: center;
+align-items: center;
+top: 50px;
+margin: 0;
+}
+.Say{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.user-name{
+display: flex;
+justify-content: center;
+text-align: center;
+position: relative;
+flex-wrap: wrap;
+top: 67px;
+}
+.user-designer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 49px;
+}
+.user-image{
+top: 40px;
+border-radius: 50%;
+position: relative;
+}
+.previous-img{
+    width: 69px;
+    height: 51px;
+    top: 33px;
+    border-radius: 50%;
+    position: relative;
+}
+.small-user-image{
+    top: 70px;
+    border-radius: 50%;
+    position: relative;
+}
+.next-img{
+    height: 51px;
+    width: 69px;
+    top: 33px;
+    border-radius: 50%;
+    position: relative;
+
+}
+.choice-img{
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+.User{
+text-align: center
+}
+
+@media screen and  (max-width:700px){
+.small-user-image{
+width: 61px;
+}
+.choice-img{
+left: 0px;
+}
+.next-img{
+width: 48px;
+}
+.previous-img{
+width: 48px;
+}
+}
