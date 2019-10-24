@@ -3,7 +3,13 @@ body{
 margin: 0;
 padding: 0;
 }
+<<<<<<< Updated upstream
 .OurServices{
+=======
+.everything{
+top: 10vw;
+position: relative;
+>>>>>>> Stashed changes
 width: 100vw;
 height:  40%;
 position: fixed;
@@ -56,11 +62,19 @@ display: flex;
 position: relative;
 justify-content: center;
 }
+<<<<<<< Updated upstream
 .graphic{
+=======
+.Breaking-news{
+align-items: center;
+position: relative;
+top: 291px;
+>>>>>>> Stashed changes
 width: 100vw;
 height: 200px;;
 }
 @media screen and  (max-width:700px){
+<<<<<<< Updated upstream
     .work-text{
     width: 169px;
     font-size:12px;
@@ -84,6 +98,100 @@ height: 200px;;
     top:60px;
     left: 8%;
     }
+=======
+    .breaking-block {
+        left: 1vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 94vw;
+}
+.breaking-img {
+    display: flex;
+    width: 77px;
+    height: 98%;
+}
+.breaking-block2 {
+    left: 1vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 94vw;
+}
+.breaking-img2 {
+display: flex;
+width: 77px;
+height: 98%;
+}
+.Breaking-news{
+    position: initial;
+top: 404px;
+}
+.block3 {
+    left: 1vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: -82px;
+    width: 93vw;
+}
+.breaking-block-text {
+    font-size: 9px;
+}
+.block4 {
+    left: 1vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 16px;
+    width: 93vw;
+}
+.breaking-block-text2 {
+    font-size: 9px;
+}
+.block5 {
+    left: 11vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: -210px;
+    width: 84vw;
+}
+.block-img {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(94, 150, 89);
+    font-size: 23px;
+    text-align: center;
+}
+.breaking-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+.block6 {
+    left: 11vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: -122px;
+    width: 84vw;
+}
+.block-img2 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(94, 150, 89);
+    font-size: 23px;
+    text-align: center;
+}
+>>>>>>> Stashed changes
 }
 @media screen and  (min-height:1000px){
 .web{
@@ -125,6 +233,7 @@ width: 93vw;
     color: green;
     border-top: 3px solid green;
 }
+<<<<<<< Updated upstream
 .load_more {
     background: green;
     border-radius: 5px;
@@ -132,4 +241,109 @@ width: 93vw;
     height: 30px;
     width: 150px;
  dev
+=======
+.OurServices{
+    width: 100vw;
+    height:  40%;
+    position: relative;
+    background-color: white;
+    }
+    .service{
+    font-size: 37px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    }
+    .design{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    
+    }
+    .web{
+    padding-top: 21px;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, .25);
+    font-size: 30px;
+    display: flex;
+    height: 56px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    }
+    .web:hover{
+    background-color: green;
+    transition: 1s;
+    }
+    .work-time{
+    left: 24%;
+    top: 112px;
+    position: relative;
+    height: 96%;
+    background-repeat: no-repeat;
+    }
+    .work-text{
+    color: grey;
+    flex-wrap: wrap;;
+    width: 803px;
+    font-size: 28px;
+    left: 38%;
+    bottom: 107px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    }
+    .graphic{
+    width: 100vw;
+    height: 200px;;
+    }
+    @media screen and  (max-width:700px){
+        .work-text{
+        width: 183px;
+        font-size:12px;
+        left: 49%;
+        padding: 0;
+        margin: 0;
+        bottom: 64px;
+        }
+        .web{
+        height: 47px;
+        width: 123px;
+        font-size: 17px;
+        padding-top: 0;
+        }
+        
+        .design{
+        margin: 0;
+        left: -33px;
+        width: 96vw;
+        }
+        .work-time{
+        height: 55%;
+        top:60px;
+        left: 8%;
+        }
+    }
+    @media screen and  (min-height:1000px){
+    .web{
+    font-size: 23px;
+    }
+    .work-text{
+    width: 482px;
+    font-size: 26px;
+    }
+    .work-time{
+    left: 7%;
+    top: 112px;
+    height: 96%;
+    }
+    .design{
+    width: 93vw;
+    }
+}
+html{
+scroll-behavior: smooth;
+>>>>>>> Stashed changes
 }
