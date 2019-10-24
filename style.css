@@ -1,73 +1,445 @@
-body {
+body{
     margin: 0;
     padding: 0;
-}
-.header {
-    min-width: 100%;
-
+    overflow: scroll;
+    }
+    .everything{
+    top: 10vw;
     position: relative;
-}
-nav ul li:hover {
-    color: red;
-    border-bottom: 1px solid red;
-    padding-bottom: 10px;
-}
-.headertext {
-    position: absolute;
+    width: 100vw;
+    height: 30vh;
+    background-image: url('http://placeimg.com/1000/300/people?t=1570994334970' );
+    background-repeat:no-repeat;
+    background-size: 100% ;
+    }
+    .just{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 195%;
     text-align: center;
-    color: #fff;
-    top	: 30%;
-    left: 0%;
-    text-transform: uppercase;
-	width: 100%;
-}
-button {
-    height: 100px;
-    border-radius: 5px;
-    border-top: 10px solid white;
-}   
-.headerbutton1 {
-    background: darkgreen;
-    margin-right: 50px;
-}
-.headerbutton2 {
-    background: blue;
-}
-.headericons ul {
+    justify-content: center;
+    color:  rgb(8, 195, 154);
+    }
+    .portfolio{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    font-size: 100%;
     text-align: center;
+    justify-content: center;
+    color:  white;
+    flex-wrap: wrap;
+    }
+    .purchase{
+    border-top: 3px;
+    border-radius: 4%;
+    text-align: center;
+    font-size: 100%;
+    top: 13%;
+    color: rgb(8, 195, 154);
+    width: 10%;
+    height: 20%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
     position: relative;
-    flex-direction: row;
-    list-style: none;
-    padding: 20px;
-    width: 100%;
-    
-}
-.headericons li {
- text-align: center;
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
-}
-.headericons i {
-    font-size: 100px;
-}
-.headerli1 {
-    background: black; 
-    color: #fff;
-    width: 25%;
-    height: 200px;
-    padding-top: 5px;
-    border-top: 10px solid green;
-}
-.headerli2 {
-    background: green;
-    color: #fff;
-    width: 25%;
-    height: 200px;
-    padding-top: 5px;
-    border-top: 10px solid black;
-}
+    left: 44vw;
+    flex-wrap: wrap;
+    }
+    @media screen and (max-width:700px ){
+    .portfolio{
+        font-size: 50%;
+        }
+    .just{
+        font-size: 80%;  
+    }
+    .purchase{
+        left: 42vw;
+        width: 12%;
+        height: 14%;
+        font-size: 55%;
+        top: -2%;
+    }
+    }
+    .breaking-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+    .Breaking-news{
+    align-items: center;
+    position: relative;
+    top: 291px;
+    width: 100vw;
+    }
+    .breaking-img{
+    display: flex;
+    }
+    .breaking-block{
+        left: 23vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1000px;
+    }
+    .breaking-block2{
+        left: 23vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    top: 50px;
+    width: 1000px;
+    }
+    .breaking-img2{
+    display: flex;
+    }
+    .breaking-block-text{
+    font-size: 20px;
+    }
+    .block3{
+        left: 24vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    top: -215px;
+    width: 957px;
+    }
+    .block4{
+        left: 24vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    top: -13px;
+    width: 957px;
+    }
+    .breaking-block-text2{
+        font-size: 20px;
+    }
+    .block5{
+        left: 30vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: -524px;
+        width: 872px;
+    }
+    .block-img{
+        width: 66px;
+        height: 66px;
+        background-color: rgb(94, 150, 89);
+        font-size: 33px;
+        text-align: center;
+    }
+    .block6{
+        left: 30vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: -341px;
+        width: 872px;
+    }
+    .block-img2{
+        width: 66px;
+        height: 66px;
+        background-color: rgb(94, 150, 89);
+        font-size: 33px;
+        text-align: center;
+    }
+    @media screen and  (max-width:700px){
+        .breaking-block {
+            left: 1vw;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 94vw;
+    }
+    .breaking-img {
+        display: flex;
+        width: 77px;
+        height: 98%;
+    }
+    .breaking-block2 {
+        left: 1vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 94vw;
+    }
+    .breaking-img2 {
+    display: flex;
+    width: 77px;
+    height: 98%;
+    }
+    .Breaking-news{
+        position: initial;
+    top: 404px;
+    }
+    .block3 {
+        left: 1vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: -82px;
+        width: 93vw;
+    }
+    .breaking-block-text {
+        font-size: 9px;
+    }
+    .block4 {
+        left: 1vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: 16px;
+        width: 93vw;
+    }
+    .breaking-block-text2 {
+        font-size: 9px;
+    }
+    .block5 {
+        left: 11vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: -210px;
+        width: 84vw;
+    }
+    .block-img {
+        width: 40px;
+        height: 40px;
+        background-color: rgb(94, 150, 89);
+        font-size: 23px;
+        text-align: center;
+    }
+    .breaking-text {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+    }
+    .block6 {
+        left: 11vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: -122px;
+        width: 84vw;
+    }
+    .block-img2 {
+        width: 40px;
+        height: 40px;
+        background-color: rgb(94, 150, 89);
+        font-size: 23px;
+        text-align: center;
+    }
+    }
+    @media screen and  (min-height:1000px){
+        .breaking-block {
+            left: 1vw;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 94vw;
+    }
+    .breaking-img {
+        display: flex;
+        width: 77px;
+        height: 98%;
+    }
+    .breaking-block2 {
+        left: 1vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 94vw;
+    }
+    .breaking-img2 {
+    display: flex;
+    width: 77px;
+    height: 98%;
+    }
+    .Breaking-news{
+    top: 289px;
+    }
+    .block3 {
+        left: 1vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: -82px;
+        width: 93vw;
+    }
+    .breaking-block-text {
+        font-size: 9px;
+    }
+    .block4 {
+        left: 1vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: 16px;
+        width: 93vw;
+    }
+    .breaking-block-text2 {
+        font-size: 9px;
+    }
+    .block5 {
+        left: 11vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: -210px;
+        width: 84vw;
+    }
+    .block-img {
+        width: 40px;
+        height: 40px;
+        background-color: rgb(94, 150, 89);
+        font-size: 23px;
+        text-align: center;
+    }
+    .breaking-text {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+    }
+    .block6 {
+        left: 11vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: -122px;
+        width: 84vw;
+    }
+    .block-img2 {
+        width: 40px;
+        height: 40px;
+        background-color: rgb(94, 150, 89);
+        font-size: 23px;
+        text-align: center;
+    }
+    }
+    .OurServices{
+        width: 100vw;
+        height:  40%;
+        position: relative;
+        background-color: white;
+        }
+        .service{
+        font-size: 37px;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        }
+        .design{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        
+        }
+        .web{
+        padding-top: 21px;
+        box-shadow: 0 0px 1px rgba(0, 0, 0, .25);
+        font-size: 30px;
+        display: flex;
+        height: 56px;
+        width: 200px;
+        text-align: center;
+        justify-content: center;
+        background-color: whitesmoke;
+        }
+        .web:hover{
+        background-color: green;
+        transition: 1s;
+        }
+        .work-time{
+        left: 24%;
+        top: 112px;
+        position: relative;
+        height: 96%;
+        background-repeat: no-repeat;
+        }
+        .work-text{
+        color: grey;
+        flex-wrap: wrap;;
+        width: 803px;
+        font-size: 28px;
+        left: 38%;
+        bottom: 107px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        }
+        .graphic{
+        width: 100vw;
+        height: 200px;;
+        }
+        @media screen and  (max-width:700px){
+            .work-text{
+            width: 183px;
+            font-size:12px;
+            left: 49%;
+            padding: 0;
+            margin: 0;
+            bottom: 64px;
+            }
+            .web{
+            height: 47px;
+            width: 123px;
+            font-size: 17px;
+            padding-top: 0;
+            }
+            
+            .design{
+            margin: 0;
+            left: -33px;
+            width: 96vw;
+            }
+            .work-time{
+            height: 55%;
+            top:60px;
+            left: 8%;
+            }
+        }
+        @media screen and  (min-height:1000px){
+        .web{
+        font-size: 23px;
+        }
+        .work-text{
+        width: 482px;
+        font-size: 26px;
+        }
+        .work-time{
+        left: 7%;
+        top: 112px;
+        height: 96%;
+        }
+        .design{
+        width: 93vw;
+        }
+    }
+    html{
+    scroll-behavior: smooth;
+    }
