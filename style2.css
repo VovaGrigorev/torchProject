@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.stick3 {
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  margin-left: -5px;
+  background-color: mediumaquamarine;
+}
+
+.stick4 {
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background-color: mediumaquamarine;
+}
+
+.txt-pricing {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+}
+
+table.unstyledTable {
+  border: 1px solid #000000;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.unstyledTable td,
+table.unstyledTable th {
+  border: 1px solid #aaaaaa;
+  padding: 15px 70px;
+}
+table.unstyledTable tbody td {
+  font-size: 13px;
+}
+table.unstyledTable thead {
+  background: #dddddd;
+}
+table.unstyledTable thead th {
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+}
+table.unstyledTable tfoot {
+  font-weight: bold;
+}
+
+.uoo {
+  background-color: cornflowerblue;
+  color: aliceblue;
+}
+
+.bott {
+  width: 100px;
+  height: 30px;
+  background-color: cornflowerblue;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 975px) {
+  table.unstyledTable td,
+  table.unstyledTable th {
+    border: 1px solid #aaaaaa;
+    padding: 10px 10px;
+  }
+}
+
+@media (max-width: 510px) {
+  table.unstyledTable td,
+  table.unstyledTable th {
+    border: 1px solid #aaaaaa;
+    padding: 5px 6px;
+  }
+}
