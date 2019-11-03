@@ -1,84 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/809baa35e1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style1.css" />
     <title>Document</title>
-</head>
-<body>
-    <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Service</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Testimonial</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-          </ul>
+  </head>
+  <body>
+    <div class="ipad-bg">
+      <div class="opis">
+        <h1 class="panza">PANZA IS NOT ONLY WORDPRESS THEME</h1>
+        <h2 class="create">IT'S ALSO CLEAN AND CREATIVE DESIGN</h2>
+      </div>
+
+      <div class="ipad">
+        <img width="400px" height="400px" src="img/ipad-.png" alt="" />
+        <div class="ishki">
+          <i class="fa fa-check" aria-hidden="true">
+            <span style="color:aliceblue">Clean layout design</span>
+          </i>
+          <i class="fa fa-check" aria-hidden="true">
+            <span style="color:aliceblue">Clean layout design</span></i
+          >
+          <i class="fa fa-check" aria-hidden="true">
+            <span style="color:aliceblue">Confernece halls</span></i
+          >
+          <i class="fa fa-check" aria-hidden="true">
+            <span style="color:aliceblue">Big meetings</span></i
+          >
+          <i class="fa fa-check" aria-hidden="true">
+            <span style="color:aliceblue">pitch in ihub</span></i
+          >
+          <i class="fa fa-check" aria-hidden="true">
+            <span style="color:aliceblue">gay orders</span></i
+          >
+          <div class="purch">Purchase me</div>
         </div>
+      </div>
     </div>
-      </nav>
-    <img src="https://img.freepik.com/free-photo/_67155-880.jpg?size=626&ext=jpg" class="header">
-    <div class="headertext">
-    <h2>Lorem ipsum dolor sit amet.</h2>
-    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-    <h3>Lorem ipsum dolor sit amet.</h3>
-<div class="headerbutton">
-    <button class="headerbutton1"><h2>Explore now</h2></button>
-    <button class="headerbutton2"><h2>Purchase now</h2></button>
-</div>
-</div>
-<div class="headericons">
-    <ul>
-    <li class="headerli1">
-    <i class="fas fa-hand-point-up headericon1"></i>
-    <p class="headertextnear1">Lorem ipsum dolor sit.</p>  
-</li>
-<li class="headerli2">
-    <i class="far fa-gem headericon2"></i>
-    <p class="headertextnear2">Lorem ipsum dolor sit.</p>   
-</li>
-<li class="headerli1">
-    <i class="far fa-lightbulb headericon1"></i>
-    <p class="headertextnear3">Lorem ipsum dolor sit.</p>  
-</li>
-<li class="headerli2">
-    <i class="fas fa-desktop headericon2"></i>
-    <p class="headertextnear4">Lorem ipsum dolor sit.</p> 
-</li> 
-    </ul> 
-</div>
-</body>
+
+    <div class="map">
+      <div id="googleMap" style="width:500px;height:300px;"></div>
+
+      <script>
+        function myMap() {
+          var mapProp = {
+            center: new google.maps.LatLng(51.508742, -0.12085),
+            zoom: 5
+          };
+          var map = new google.maps.Map(
+            document.getElementById("googleMap"),
+            mapProp
+          );
+        }
+      </script>
+
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtbekkUyPMCqCbhn5-p-vMacwA9-pf2vI&callback=myMap"></script>
+
+      <div class="txt-inp">
+        <h2 class="keep">Keep in touch</h2>
+        <div class="sticks">
+          <div class="stick1"></div>
+          <div class="stick2"></div>
+        </div>
+        <input class="inp" placeholder="Name" type="text" />
+        <input class="inp" placeholder="Email" type="text" />
+        <input class="inp-big" placeholder="Message" type="text" />
+        <div class="purch1">Send Request</div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <div class="first">
+        <h1>PANZ<span style="color:mediumaquamarine">A</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Natus, ea.
+        </p>
+
+        <h4 class="h4">Office:</h4>
+        <p>795, Kyiv. Maidan Nezaleshnosti</p>
+        <p>Phone: +380944473928</p>
+        <p>Fax: +380844882</p>
+        <P>Email: Info Canvas dot com</P>
+      </div>
+
+      <div class="second">
+        <h2>Recent Post</h2>
+        <div class="img-txt">
+          <img width="60px" height="60px" src="img/module.jpeg" alt="" />
+          <div class="txt-div">
+            <h2 style="color:mediumaquamarine">a standard image post</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora,
+              mollitia!
+            </p>
+            <p>10 march 2015</p>
+          </div>
+        </div>
+        <div class="img-txt">
+          <img width="60px" height="60px" src="img/mount.jpg" alt="" />
+          <div class="txt-div">
+            <h2 style="color:mediumaquamarine">the best alternative</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora,
+              mollitia!
+            </p>
+            <p>10 march 2015</p>
+          </div>
+        </div>
+        <div class="img-txt">
+          <img width="60px" height="60px" src="img/snow.jpg" alt="" />
+          <div class="txt-div">
+            <h2 style="color:mediumaquamarine">criticizing is important</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora,
+              mollitia!
+            </p>
+            <p>8 april 2017</p>
+          </div>
+        </div>
+      </div>
+      <div class="third">
+        <h2>Tags:</h2>
+        <div class="blocks">
+          <div class="f1">
+            <div class="audio">Audio</div>
+            <div class="audio1">Audio</div>
+            <div class="audio1">Audio</div>
+            <div class="audio1">Audio</div>
+          </div>
+          <div class="f1">
+            <div class="audio1">Audio</div>
+            <div class="audio1">Audio</div>
+            <div class="audio1">Audio</div>
+            <div class="audio1">Audio</div>
+          </div>
+          <div class="f1">
+            <div class="audio1">Audio</div>
+            <div class="audio1">Audio</div>
+            <div class="audio1">Audio</div>
+            <div class="audio1">Audio</div>
+          </div>
+        </div>
+        <div class="news">
+          <h2>Newsletter</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos,
+            nemo.
+          </p>
+          <div class="enter-email">
+            <input
+              class="enter"
+              placeholder="Enter email"
+              type="text"
+              style="background-color:rgb(13, 38, 26)"
+            />
+            <div class="go">GO</div>
+          </div>
+        </div>
+      </div>
+      <div class="fourth">
+        <h2>Flicke Feed</h2>
+        <div class="foot-img">
+          <div class="col1">
+            <img width="50px" height="50px" src="img/module.jpeg" alt="" />
+            <img width="50px" height="50px" src="img/module.jpeg" alt="" />
+            <img width="50px" height="50px" src="img/module.jpeg" alt="" />
+          </div>
+          <div class="col2">
+            <img width="50px" height="50px" src="img/module.jpeg" alt="" />
+            <img width="50px" height="50px" src="img/module.jpeg" alt="" />
+            <img width="50px" height="50px" src="img/module.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Copyright 2015 <span style="color:mediumaquamarine">Panza</span> / All
+        rights reserved
+      </p>
+    </footer>
+  </body>
 </html>
